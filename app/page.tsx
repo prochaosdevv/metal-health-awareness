@@ -57,8 +57,8 @@ export default function Home() {
       submit();
     }
   };
- const totalScore = result.gadScore + result.phqScore;
-const overallRisk = totalRiskLevel(totalScore);
+//  const totalScore = result.gadScore + result.phqScore;
+// const overallRisk = totalRiskLevel(totalScore);
 function totalRiskLevel(total: number) {
   if (total <= 6) return "Minimal";
   if (total <= 13) return "Mild";
